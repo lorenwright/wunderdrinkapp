@@ -1,0 +1,353 @@
+<% content_for :title, "SuperDrink - The drink of champions" %>
+
+<div class="container">
+	<div id="hero-wrap">
+	
+	<!-- NAVIGATION -->
+	
+	<div class="nav">
+		<div class="logo">
+			<img src="<%= asset_path( 'logo.png' ) %>" />
+		</div><!-- closing .logo div -->
+		<div class="menu">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#features">Features</a></li>
+				<li><a href="#purchase" class="buy-now">Buy Now</a></li>
+			</ul>
+		</div><!-- closing .menu div -->
+	</div><!-- closing .nav div -->
+	
+	<!-- HERO -->
+	
+	<div class="hero">
+		<div class="hero-text revealOnScroll" data-animation="fadeInLeft" data-timeout="600">
+			<h1>Lorem ipsum <strong>dolor sit</strong> amet</h1>
+			<p>Lorem ipsum dolor sit amet, ne meliore.</p>
+			<div class="hero-btns">
+				<a href="#purchase" class="red-hover">Buy Now</a>
+				<a href="#" class="video" id="open-video">Play Video</a>
+			</div><!-- closing .hero-btns div -->
+			<div id="video">
+				<iframe width="700" height="394" src="https://www.youtube.com/embed/W7jkygJ_QNo" frameborder="0" allowfullscreen></iframe>
+			</div><!-- closing #video div -->
+		</div><!-- closing .hero-text div -->
+		<div class="hero-img">
+			<img src="<%= asset_path( 'pop-can.png' ) %>" width="200" />
+		</div><!-- closing .hero-img" -->
+	</div><!-- closing .hero div -->
+	</div><!-- closing #hero-wrap div -->
+	
+	<!-- ABOUT -->
+	
+	<div class="about section">
+		<a name="about"></a>
+		<h2>Just how awesome is it?</h2>
+		<p>Lorem ipsum dolor sit amet, ne meliore ancillae per, errem viderer nostrud ei pri. Per quis ferri viderer ut. Vis ad suas dicam dissentiunt. Molestie philosophia deterruisset eu nam.</p>
+		<img src="<%= asset_path( 'twelvepack.png' ) %>" />
+	</div><!-- closing .about div -->
+	
+	<!-- FEATURES -->
+	
+	<div class="features section">
+		<a name="features"></a>
+		<h2>Lorem ipsum dolor sit</h2>
+		<p>Lorem ipsum dolor sit amet, ne meliore ancillae per, errem viderer nostrud ei pri. Per quis ferri viderer ut. Vis ad suas dicam dissentiunt. Molestie philosophia deterruisset eu nam.</p>
+		<div class="features-inner-row">
+			<div class="left">
+				<img src="<%= asset_path( 'bottles.jpg' ) %>" width="370" />
+			</div><!-- closing .left div -->
+			<div class="right">
+			
+			
+				<div class="feature-box">
+					<div class="feature-box-icon">
+						<i class="fa fa-ambulance"></i>
+					</div><!-- closing .feature-box-icon div -->
+					<div class="feature-box-text">
+						<h3>Feature One</h3>
+						<p>Suspendisse sagittis lacinia lacinia. Integer sit amet ante elit. Praesent pulvinar congue risus, in tristique.</p>
+					</div><!-- closing .feature-box-text div -->
+				</div><!-- closing .feature-box div -->
+				
+				<div class="feature-box">
+					<div class="feature-box-icon">
+						<i class="fa fa-apple"></i>
+					</div><!-- closing .feature-box-icon div -->
+					<div class="feature-box-text">
+						<h3>Feature Two</h3>
+						<p>Suspendisse sagittis lacinia lacinia. Integer sit amet ante elit. Praesent pulvinar congue risus, in tristique.</p>
+					</div><!-- closing .feature-box-text div -->
+				</div><!-- closing .feature-box div -->
+				
+				<div class="feature-box">
+					<div class="feature-box-icon">
+						<i class="fa fa-bank"></i>
+					</div><!-- closing .feature-box-icon div -->
+					<div class="feature-box-text">
+						<h3>Feature Three</h3>
+						<p>Suspendisse sagittis lacinia lacinia. Integer sit amet ante elit. Praesent pulvinar congue risus, in tristique.</p>
+					</div><!-- closing .feature-box-text div -->
+				</div><!-- closing .feature-box div -->
+				
+				<div class="feature-box">
+					<div class="feature-box-icon">
+						<i class="fa fa-diamond"></i>
+					</div><!-- closing .feature-box-icon div -->
+					<div class="feature-box-text">
+						<h3>Feature Four</h3>
+						<p>Suspendisse sagittis lacinia lacinia. Integer sit amet ante elit. Praesent pulvinar congue risus, in tristique.</p>
+					</div><!-- closing .feature-box-text div -->
+				</div><!-- closing .feature-box div -->
+				
+				
+			</div><!-- closing .right div -->
+		</div><!-- closing .features-inner-row -->
+	</div><!-- closing .features div -->
+		
+	<!-- PURCHASE -->
+	
+	<div class="purchase section">
+		<a name="purchase"></a>
+		<div class="purchase-inner-row">
+			<div class="left">
+				<h2>SuperDrink</h2>
+				<span class="price">$200 Per Case</span>
+				<div id="purchase-info">
+					<ul>
+						<li><a href="#details">Product Details</a></li>
+						<li><a href="#faq">FAQ</a></li>
+					</ul>
+					<div id="details">
+						<p>Lorem ipsum dolor sit amet, mel vitae splendide vituperata in, eos id fastidii pertinacia. Nibh porro appellantur ex pro, est at tractatos assentior. Et vituperata signiferumque his, has te quas ferri conceptam. Ea ius minimum invenire postulant, in decore dolorum sea. Ius viris consectetuer cu.</p>
+					</div>
+					<div id="faq">
+						<p>Dolore facete fierent vis eu, per utroque aliquando te. Ei wisi inani verear his, omnis legendos oportere pri no. Et viris rationibus vis. Vim nonumy intellegam id, adipiscing vituperata cum id, ius tempor eirmod voluptatibus et. Timeam facilis cu sed, te ius numquam salutandi, rebum platonem interpretaris usu ea. Cu est agam malorum. Mea an veritus omittam menandri, vel adhuc alienum necessitatibus ea, duo ne brute novum.</p>
+					</div>
+					<a href="#orderform" class="order-button" id="open-order">Order Now</a>
+				</div><!-- closing .purchase-info -->
+				
+			</div><!-- closing .left div -->
+			<div class="right">
+				<img src="<%= asset_path( 'pop-can.png' ) %>" width="200" />
+			</div><!-- closing .right div> -->
+			
+			<!-- PURCHASE FORM -->
+			
+			<div id="order">
+				<div class="form-container">
+					<div id="form-accordion">
+							<h3>Quantity</h3>
+							<div>
+							<form id="purchase-form" action="#">
+								<p>How many cases of SuperDrink would you like?</p>
+								<select name="quantity" id="quantity"  onchange="calculateTotal (this)">
+									<option value="0">0</option>
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+									<option value="6">6</option>
+									<option value="7">7</option>
+									<option value="8">8</option>
+									<option value="9">9</option>
+									<option value="10">10</option>
+								</select>
+								<div class="next-previous">
+									<button class="next">Next</button>
+								</div>
+							</div>
+							<h3>Shipping</h3>
+							<div>
+								<p>Where would you like your SuperDrink shipped to?</p>
+								<input type="text" name="shipFirstName" placeholder="First Name">
+								<input type="text" name="shipLastName" placeholder="Last Name">
+								<input type="text" name="shipAddress" placeholder="Street Address">
+								<input type="text" name="shipAddressTwo" placeholder="Street Address Line 2">
+								<input type="text" name="shipCity" placeholder="City">
+								<select>
+									<option value="AL">Alabama</option>
+									<option value="AK">Alaska</option>
+									<option value="AZ">Arizona</option>
+									<option value="AR">Arkansas</option>
+									<option value="CA">California</option>
+									<option value="CO">Colorado</option>
+									<option value="CT">Connecticut</option>
+									<option value="DE">Delaware</option>
+									<option value="DC">District Of Columbia</option>
+									<option value="FL">Florida</option>
+									<option value="GA">Georgia</option>
+									<option value="HI">Hawaii</option>
+									<option value="ID">Idaho</option>
+									<option value="IL">Illinois</option>
+									<option value="IN">Indiana</option>
+									<option value="IA">Iowa</option>
+									<option value="KS">Kansas</option>
+									<option value="KY">Kentucky</option>
+									<option value="LA">Louisiana</option>
+									<option value="ME">Maine</option>
+									<option value="MD">Maryland</option>
+									<option value="MA">Massachusetts</option>
+									<option value="MI">Michigan</option>
+									<option value="MN">Minnesota</option>
+									<option value="MS">Mississippi</option>
+									<option value="MO">Missouri</option>
+									<option value="MT">Montana</option>
+									<option value="NE">Nebraska</option>
+									<option value="NV">Nevada</option>
+									<option value="NH">New Hampshire</option>
+									<option value="NJ">New Jersey</option>
+									<option value="NM">New Mexico</option>
+									<option value="NY">New York</option>
+									<option value="NC">North Carolina</option>
+									<option value="ND">North Dakota</option>
+									<option value="OH">Ohio</option>
+									<option value="OK">Oklahoma</option>
+									<option value="OR">Oregon</option>
+									<option value="PA">Pennsylvania</option>
+									<option value="RI">Rhode Island</option>
+									<option value="SC">South Carolina</option>
+									<option value="SD">South Dakota</option>
+									<option value="TN">Tennessee</option>
+									<option value="TX">Texas</option>
+									<option value="UT">Utah</option>
+									<option value="VT">Vermont</option>
+									<option value="VA">Virginia</option>
+									<option value="WA">Washington</option>
+									<option value="WV">West Virginia</option>
+									<option value="WI">Wisconsin</option>
+									<option value="WY">Wyoming</option>
+								</select>
+								<input type="text" name="shipZip" placeholder="Zip Code">
+								<div class="next-previous">
+									<button class="previous">Previous</button>
+									<button class="next">Next</button>
+								</div>
+							</div>
+							<h3>Billing</h3>
+							<div>
+								<div class="card-wrapper"></div>
+								<input placeholder="Card number" type="text" name="number">
+                				<input placeholder="Full name" type="text" name="name">
+               					<input placeholder="MM/YY" type="text" name="expiry">
+               					<input placeholder="CVC" type="text" name="cvc">
+								<input type="text" name="billAddress" placeholder="Street Address">
+								<input type="text" name="billAddressTwo" placeholder="Street Address Line 2">
+								<input type="text" name="billCity" placeholder="City">
+								<select>
+									<option value="AL">Alabama</option>
+									<option value="AK">Alaska</option>
+									<option value="AZ">Arizona</option>
+									<option value="AR">Arkansas</option>
+									<option value="CA">California</option>
+									<option value="CO">Colorado</option>
+									<option value="CT">Connecticut</option>
+									<option value="DE">Delaware</option>
+									<option value="DC">District Of Columbia</option>
+									<option value="FL">Florida</option>
+									<option value="GA">Georgia</option>
+									<option value="HI">Hawaii</option>
+									<option value="ID">Idaho</option>
+									<option value="IL">Illinois</option>
+									<option value="IN">Indiana</option>
+									<option value="IA">Iowa</option>
+									<option value="KS">Kansas</option>
+									<option value="KY">Kentucky</option>
+									<option value="LA">Louisiana</option>
+									<option value="ME">Maine</option>
+									<option value="MD">Maryland</option>
+									<option value="MA">Massachusetts</option>
+									<option value="MI">Michigan</option>
+									<option value="MN">Minnesota</option>
+									<option value="MS">Mississippi</option>
+									<option value="MO">Missouri</option>
+									<option value="MT">Montana</option>
+									<option value="NE">Nebraska</option>
+									<option value="NV">Nevada</option>
+									<option value="NH">New Hampshire</option>
+									<option value="NJ">New Jersey</option>
+									<option value="NM">New Mexico</option>
+									<option value="NY">New York</option>
+									<option value="NC">North Carolina</option>
+									<option value="ND">North Dakota</option>
+									<option value="OH">Ohio</option>
+									<option value="OK">Oklahoma</option>
+									<option value="OR">Oregon</option>
+									<option value="PA">Pennsylvania</option>
+									<option value="RI">Rhode Island</option>
+									<option value="SC">South Carolina</option>
+									<option value="SD">South Dakota</option>
+									<option value="TN">Tennessee</option>
+									<option value="TX">Texas</option>
+									<option value="UT">Utah</option>
+									<option value="VT">Vermont</option>
+									<option value="VA">Virginia</option>
+									<option value="WA">Washington</option>
+									<option value="WV">West Virginia</option>
+									<option value="WI">Wisconsin</option>
+									<option value="WY">Wyoming</option>
+								</select>
+								
+									<div class="next-previous">
+										<button class="previous">Previous</button>
+										<button class="next">Next</button>
+									</div>
+							</div>
+							<h3>Confirmation</h3>
+							<div>
+								<p>Please review your order.</p>
+								<table class="confirmation">
+									<tr>
+										<th>Item</th>
+										<th>Quantity</th>
+										<th>Total Price</th>
+									</tr>
+									<tr>
+										<td>SuperDrink 12-Pack Case</td>
+										<td id="item-quantity"></td>
+										<td id="totalPrice"></td>
+									</tr>
+								</table>
+								<input type="submit" value="Place Order">
+							</form>
+							</div>
+					</div><!-- closing #form-accordion div -->
+				</div><!-- closing .form-container div -->
+			</div><!-- closing #order div -->
+			
+		</div><!closing .purchase-inner-row -->
+	</div><!-- closing .purchase div -->
+	
+	<!-- FOOTER -->
+	
+	<div class="footer">
+		<h2>Connect with us.</h2>
+		<p>Lorem ipsum dolor sit amet, ne meliore</p>
+		<ul class="social">
+			<li><a href="#"><i class="fa fa-facebook"></i></li>
+			<li><a href="#"><i class="fa fa-twitter"></i></li>
+			<li><a href="#"><i class="fa fa-youtube"></i></li>
+			<li><a href="#"><i class="fa fa-google-plus"></i></li>
+			<li><a href="#"><i class="fa fa-linkedin"></i></li>
+		</ul>
+		<a href="#purchase" class="purchase-now-button">Purchase Now</a>
+	</div><!-- closing .footer div -->
+	
+	<!-- COPYRIGHT -->
+	
+	<div class="copyright">
+		<p>&copy; SportsDrink. All Rights Reserved.</p>
+	</div><!-- closing .copyright div -->
+</div><!-- closing .container div -->
+
+<!-- JAVASCRIPT -->
+
+<script src="vendor/assets/javascripts/jquery.card.js"></script>
+<script>
+	new Card({
+		form: document.querySelector('form'),
+		container: '.card-wrapper'
+	});
+</script>
